@@ -1,3 +1,77 @@
 .header{
-    height: 400px;
+    padding: 50px 0;
+    &__inner{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        &__link{
+            text-decoration: none;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #4F5665;
+            flex-grow: 1; 
+            flex-basis: 0;
+            @include TransitionMix(0.1s);
+            &:not(:last-child){
+                margin-right: 40px;
+            }
+            &:hover{
+                transform: scale(1.15);
+            }
+        }
+    }
+    &__btn{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        @include TransitionMix(0.1s);
+        &:nth-child(1){
+            color: #0B132A;
+            margin-right: 30px;
+        }
+        &:nth-child(2){
+            color: $btnColor;
+            position: relative;
+            padding: 13px 45px;
+            border: 1px solid$btnColor ;
+            border-radius: 50px;
+            background-color: transparent;
+            &:before{
+                position: absolute;
+                content: '';
+                width: 0%; 
+                height: 100%;
+                background-color: $btnColor;
+                top: 0;  
+                left: 0; 
+                right: 0;
+                z-index: -1;
+                border-radius: 50px;
+                @include TransitionMix(300ms);
+            }
+            &:hover{
+                color: white;
+                border-radius: 50px;
+                &:before{
+                    position: absolute;
+                    content: '';
+                    width: 100%; 
+                    height: 100%;
+                    background-color: $btnColor;
+                }
+            }  
+        }
+        &:hover{
+            opacity: 0.8;
+        }        
+    }
 }

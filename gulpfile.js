@@ -55,4 +55,4 @@ gulp.task('watch', function() {
     gulp.watch("src/js/*.js", gulp.parallel('compressJs'),browserSync.reload);
 });
  
-gulp.task('default', gulp.parallel('watch', 'scss', 'compressImg','server'));
+gulp.task('default', gulp.parallel('watch', 'scss', 'compressImg', 'server'));
