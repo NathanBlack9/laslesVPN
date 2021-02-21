@@ -1,0 +1,211 @@
+.global{
+    width: 100%;
+    &__inner{
+        padding-bottom: 125px;
+    }
+    &__title{
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 50px;
+        text-align: center;
+        color: #0B132A;
+        max-width: 383px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    &__subtitle{
+        max-width: 555px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #4F5665;
+        margin: 0 auto;
+        margin-bottom: 155px;
+        span{
+            font-weight: 500;
+        }
+    }
+    &__map{
+        position: relative;
+        min-height: 578px;
+        background: url('../img/global/globus.svg') 0 0/cover no-repeat;
+        margin-bottom: 80px;
+    }
+    &__point{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        cursor:pointer;
+        @include TransitionMix(100ms);
+        &:hover{
+            transform: scale(1.2);
+        }
+        &:nth-child(1){
+            left: 27px;
+            top: 98px;
+            width: 30px;
+            height: 30px;
+        }
+        &:nth-child(2){
+            left: 115px;
+            top: 87px;
+        }
+        &:nth-child(3){
+            top: 100px;
+            left: 208px;
+        }
+        &:nth-child(4){
+            top: 0px;
+            left: 282px;
+        }
+        &:nth-child(5){
+            left: 365px;
+            top: 31px;
+            width: 45px;
+            height: 45px;
+        }
+        &:nth-child(6){
+            left: 379px;
+            top: 105px;
+            width: 30px;
+            height: 30px;
+        }
+        &:nth-child(7){
+            left: 440px;
+            top: 17px;
+        }
+        &:nth-child(8){
+            left: 160px;
+            top: 164px;
+            width: 50px;
+            height: 50px;
+        }
+        &:nth-child(9){
+            top: 146px;
+            left: 295px;
+        }
+        &:nth-child(10){
+            top: 216px;
+            left: 251px;
+        }
+        &:nth-child(11){
+            left: 194px;
+            top: 253px;
+        }
+        &:nth-child(12){
+            top: 345px;
+            left: 293px;
+        }
+        &:nth-child(13){
+            top: 388px;
+            left: 390px;
+            width: 30px;
+            height: 30px;
+        }
+        &:nth-child(14){
+            left: 330px;
+            top: 396px;
+            width: 50px;
+            height: 50px;
+        }
+        &:nth-child(15){
+            top: 474px;
+            left: 310px;
+        }
+        &:nth-child(16){
+            top: 115px;
+            left: 552px;
+        }
+        &:nth-child(17){
+            left: 595px;
+            top: 181px;
+            width: 50px;
+            height: 50px;
+        }
+        &:nth-child(18){
+            top: 290px;
+            left: 498px;
+        }
+        &:nth-child(19){
+            top: 304px;
+            left: 610px;
+            width: 50px;
+            height: 50px;
+        }
+        &:nth-child(20){
+            left: 597px;
+            top: 423px;
+            width: 45px;
+            height: 45px;
+        }
+        &:nth-child(21){
+            top: 128px;
+            right: 392px;
+            width: 53px;
+            height: 53px;
+        }
+        &:nth-child(22){
+            top: 269px;
+            right: 326px;
+            height: 50px;
+            width: 50px;
+        }
+        &:nth-child(23){
+            right: 327px;
+            top: 78px;
+            width: 30px;
+            height: 30px;
+        }
+        &:nth-child(24){
+            top: 147px;
+            right: 284px;
+            width: 60px;
+            height: 60px;
+        }
+        &:nth-child(25){
+            top: 232px;
+            right: 244px;
+            width: 35px;
+            height: 35px;
+        }
+        &:nth-child(26){
+            right: 176px;
+            top: 102px;
+        }
+        &:nth-child(27){
+            top: 90px;
+            right: 39px;
+            width: 45px;
+            height: 45px;
+        }
+        &:nth-child(28){
+            top: 377px;
+            right: 231px;
+        }
+        &:nth-child(29){
+            right: 191px;
+            top: 443px;
+            width: 55px;
+            height: 55px;
+        }
+        &:nth-child(30){
+            bottom: 71px;
+            right: 120px;
+        }
+    }
+    &__sponsors{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__sponsor{
+        width: 20%;
+        
+        filter: grayscale(1);
+        &:not(:first-child){
+            margin-left: 55px;
+        }
+    }
+}
