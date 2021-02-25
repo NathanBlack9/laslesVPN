@@ -4,17 +4,13 @@
     min-width: 0;
     &__section{
         width: 100%;
-        margin-bottom: 65px;
-        & .container{
-            max-width: 1525px;
-            margin-right: 0;
-        }
+        margin-bottom: 306px;
         &_title{
             font-weight: 500;
             font-size: 35px;
             line-height: 50px;
             text-align: center;
-            color: #0B132A;
+            color: $titleColor;
             max-width: 447px;
             margin: 0 auto;
             margin-bottom: 20px;
@@ -24,16 +20,18 @@
             font-size: 16px;
             line-height: 30px;
             text-align: center;
-            color: #4F5665;
+            color: $subColor;
             max-width: 555px;
             margin: 0 auto;
             margin-bottom: 60px;
         }
     }
     &__block{
-        max-width: 100%;
         display: flex;
-        min-width: 0;
+        min-width: 0px;
+        margin-right: 0;
+        max-width: 1525px;
+        margin-left: 356px;
     }
     &__item{
         min-width: 0;
@@ -69,7 +67,7 @@
         font-weight: normal;
         font-size: 16px;
         line-height: 30px;
-        color: #0B132A;
+        color: $titleColor;
     }
     &__about{
         width: 70%;
@@ -81,18 +79,18 @@
         margin-top: 8px;
         font-weight: 500;
         font-size: 18px;
-        color: #0B132A;
+        color: $titleColor;
     }
     &__location{
         font-weight: normal;
         font-size: 14px;
-        color: #4F5665;
+        color: $subColor;
     }
     &__text{
         margin-top: 20px;
         font-weight: normal;
         font-size: 16px;
         line-height: 25px;
-        color: #0B132A;
+        color: $titleColor;
     }
 }

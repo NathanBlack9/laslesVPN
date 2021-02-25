@@ -16,14 +16,14 @@
         font-weight: 500;
         font-size: 35px;
         line-height: 50px;
-        color: #0B132A;
+        color: $titleColor;
         margin-bottom: 20px;
     }
     &__subtitle{
         font-weight: normal;
         font-size: 16px;
         line-height: 30px;
-        color: #4F5665;
+        color: $subColor;
         margin-bottom: 20px;
     }
     &__checkpoint{
@@ -37,7 +37,7 @@
         font-weight: normal;
         font-size: 14px;
         line-height: 30px;
-        color: #4F5665;
+        color: $subColor;
         margin-left: 10px;
     }
 }

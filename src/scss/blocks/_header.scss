@@ -16,7 +16,7 @@
             font-weight: normal;
             font-size: 16px;
             line-height: 19px;
-            color: #4F5665;
+            color: $subColor;
             flex-grow: 1; 
             flex-basis: 0;
             @include TransitionMix(0.1s);
@@ -35,7 +35,7 @@
         line-height: 19px;
         @include TransitionMix(0.1s);
         &:nth-child(1){
-            color: #0B132A;
+            color: $titleColor;
             margin-right: 30px;
         }
         &:nth-child(2){

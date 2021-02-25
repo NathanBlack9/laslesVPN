@@ -8,14 +8,14 @@
         font-size: 35px;
         line-height: 50px;
         text-align: center;
-        color: #0B132A;
+        color: $titleColor;
     }
     &__subtitle{
         font-weight: normal;
         font-size: 16px;
         line-height: 30px;
         text-align: center;
-        color: #4F5665;
+        color: $subColor;
         margin-bottom: 60px;
         margin: 20px auto 60px;
         max-width: 555px;
@@ -98,14 +98,14 @@
             font-weight: normal;
             font-size: 14px;
             line-height: 30px;
-            color: #4F5665;
+            color: $subColor;
         }
         &_price{
             font-weight:normal;
             font-size: 25px;
             line-height: 30px;
             text-align: center;
-            color: #0B132A;
+            color: $titleColor;
             margin-bottom: 20px;
         }
         &_bottom{
