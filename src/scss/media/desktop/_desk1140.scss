@@ -1,0 +1,47 @@
+@media screen and (max-width:1140px){
+    .global{
+        &__inner{
+            background: url('../img/global/globus.svg') 0 0/cover no-repeat;
+            padding: 120px 0;
+        }
+        &__title{
+            font-weight: bold;
+        }
+        &__subtitle{
+            font-size: 20px;
+        }
+        &__map{
+            display: none;
+        }
+        &__sponsors{
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        &__sponsor{
+            width: 17%;
+        }
+    }
+    .slider{
+        &__section{
+            margin-bottom: 150px;
+        }
+        &__block{
+            max-width: 850px;
+        }
+        & .slick-arrow.slick-prev{
+            right: 75px;
+        }
+        & .slick-arrow.slick-next{
+            right: 0;
+        }
+    }
+    .sub{
+        position: relative;
+        width: auto;
+    }
+    .footer{
+        &__inner{
+            padding: 100px 80px;
+        }
+    }
+}
