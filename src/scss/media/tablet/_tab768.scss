@@ -1,0 +1,47 @@
+@media screen and (max-width:768px){
+    .header{
+        padding: 50px 0 8px;
+    }
+    .intro{
+        padding-bottom: 95px;
+        &__title{
+            margin: 0 30px 20px;
+        }
+        &__subtitle{
+            margin: 0 30px 50px;
+        }
+    }
+    .features{
+        &__item{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            &:nth-child(2){
+                border: none;
+                padding: 0;
+            }
+            img{
+                margin-bottom: 20px;
+                margin-right: 0;
+                width: 55px;
+                height: 55px;
+            }
+        }
+    }
+    .plan{
+        &__card{
+            flex-basis: 51%;
+            flex-direction: column;
+            &>img{
+                margin-right: 0;
+                margin-bottom: 30px;
+            }
+            &_bottom{
+                margin-left: 0;
+            }
+            &_points{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

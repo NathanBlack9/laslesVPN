@@ -1,0 +1,32 @@
+@media screen and (max-width:560px){
+    .header{
+        .nav{
+            width: 75%;
+        }
+    }
+    .slider{
+        &__block{
+            max-width: none;
+        }
+        &__item{
+            max-height: none;
+        }
+        &__section_title{
+            margin: 0 30px 20px;
+        }
+        &__about{
+            width: 100%;
+        }
+        &__rating{
+            width: 15%;
+        }
+        &__info{
+            flex-direction: column;
+        }
+    }
+    .sub{
+        &__inner{
+            padding: 60px 40px;
+        }
+    }
+}

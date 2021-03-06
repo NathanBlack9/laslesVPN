@@ -1,0 +1,42 @@
+@media screen and (max-width:560px){
+    .intro{
+        &__title{
+            font-size: 40px;
+        }
+    }
+    .provide{
+        &__checks{
+            margin-left: 15%;
+        }
+    }
+    .plan{
+        &__card{
+            flex-basis: 70%;
+        }
+        &__subtitle{
+            margin: 20px 70px 60px;
+        }
+    }
+    .global{
+        &__subtitle{
+            font-size: 17px;
+            margin: 0 55px 60px;
+        }
+        &__sponsor{
+            &:not(:first-child){
+                margin-left: 30px;
+            }
+        }
+    }
+    .slider{
+        &__section{
+            margin-top: 45px;
+            &_subtitle{
+                margin: 0 45px 60px;
+            }
+        }
+        &__block{
+            max-width: 85%;
+        }
+    }
+}

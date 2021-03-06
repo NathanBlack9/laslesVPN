@@ -1,8 +1,19 @@
 @media screen and (max-width:1140px){
+    @include burger;
+    .header{
+        &__inner{
+            justify-content: center;
+        }
+    }
+    .header .nav__link:not(:last-child){
+        margin-right: 0;
+        
+    }
     .global{
         &__inner{
             background: url('../img/global/globus.svg') 0 0/cover no-repeat;
             padding: 120px 0;
+            background-position: center;
         }
         &__title{
             font-weight: bold;

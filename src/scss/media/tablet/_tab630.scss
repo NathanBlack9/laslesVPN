@@ -1,0 +1,16 @@
+@media screen and (max-width:630px){
+    .intro{
+        &__item{
+            &:nth-child(1){
+                h2{
+                    margin: 0 30px 50px;
+                }
+            }
+        }
+    }
+    .global{
+        &__inner{
+            padding: 65px 0;
+        }
+    }
+}
